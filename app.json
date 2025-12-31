@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "My Expo App",
+    "slug": "my-expo-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "scheme": "myapp",
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
